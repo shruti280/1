@@ -1,0 +1,539 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.navbar-brand {
+  margin-left: 10%;
+}
+
+.nav-text {
+  margin-left: 20%;
+  font-size: 14px;
+}
+
+.nav-text .fas {
+  padding: 4px;
+}
+
+.second {
+  text-align: center;
+}
+
+.second h3 {
+  font-weight: 250;
+  letter-spacing: 4px;
+}
+
+.second p {
+  letter-spacing: 2px;
+}
+
+.second .sec-img {
+  background-image: url(../images/4.png);
+  height: 100vh;
+  width: 100%;
+  margin-top: -4%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.third {
+  text-align: center;
+}
+
+.third h3 {
+  margin-top: -10%;
+  font-weight: 250;
+  letter-spacing: 4px;
+}
+
+.card-body h5 {
+  font-weight: 300;
+  font-size: 22px;
+}
+
+.box {
+  background-color: black;
+  width: 100%;
+  height: 40vh;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  margin-top: 15%;
+}
+
+.box h3 {
+  color: white;
+  font-weight: 200;
+  letter-spacing: 3px;
+}
+
+.box p {
+  color: white;
+  font-weight: 200;
+  letter-spacing: 3px;
+}
+
+.box .buttons {
+  width: 50%;
+  margin-left: 25%;
+}
+
+.box .buttons .btn {
+  background-color: #cd9e3d;
+  border-radius: 0;
+  width: 100%;
+  font-size: 10px;
+  height: 5vh;
+  font-weight: 400;
+}
+
+.fourth {
+  text-align: center;
+}
+
+.fourth h3 {
+  font-weight: 400;
+  letter-spacing: 4px;
+}
+
+.card {
+  background-color: #f7f7f7;
+  border: 0px solid rgba(0, 0, 0, 0.125);
+  height: auto;
+}
+
+.card .card-body h4 {
+  font-size: 14px;
+  text-align: left;
+  margin-top: 4%;
+}
+
+.card .card-body .stars {
+  position: relative;
+  text-align: left;
+  font-size: 11px;
+}
+
+.card .card-body .stars .checked {
+  color: #eba721;
+}
+
+.card .card-body .card-text {
+  font-size: 15px;
+  letter-spacing: 0.5px;
+  text-align: left;
+  margin-top: 12%;
+  font-family: "Tw Cen MT";
+}
+
+.card .card-text2 {
+  text-align: left;
+  margin-left: 5%;
+  font-size: 14px;
+}
+
+.card1 .card-body h4 {
+  font-size: 14px;
+  text-align: left;
+  margin-top: 4%;
+}
+
+.card1 .card-body .stars {
+  position: relative;
+  text-align: left;
+  font-size: 11px;
+}
+
+.card1 .card-body .stars .checked {
+  color: #eba721;
+}
+
+.card1 .card-body .card-text {
+  font-size: 15px;
+  letter-spacing: 0.5px;
+  text-align: left;
+  margin-top: 12%;
+  font-family: "Tw Cen MT";
+}
+
+.box2 {
+  background-color: black;
+  width: 100%;
+  height: 40vh;
+  margin-top: 5%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.box2 h3 {
+  color: white;
+  font-weight: 300;
+  letter-spacing: 3px;
+}
+
+.box2 p {
+  color: white;
+  letter-spacing: 2px;
+  font-weight: 200;
+  font-size: 14px;
+  line-height: 1.2em;
+}
+
+.fifth {
+  text-align: center;
+}
+
+.fifth h3 {
+  margin-top: 7%;
+  font-weight: 400;
+  letter-spacing: 4px;
+}
+
+.fifth p {
+  letter-spacing: 2px;
+}
+
+.fifth .img-thumbnail {
+  width: 24%;
+  padding: 0px;
+  border-radius: 0px;
+  border: 0px solid #dee2e6;
+}
+
+.fifth .buttons {
+  margin-top: 2%;
+  width: 50%;
+  margin-left: 25%;
+}
+
+.fifth .buttons .btn {
+  background-color: black;
+  width: 100%;
+  border-radius: 0;
+  color: white;
+  font-size: 13px;
+  height: 5vh;
+  font-weight: 400;
+}
+
+.fifth .buttons .btn:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+
+.box3 {
+  background-color: black;
+  width: 100%;
+  height: 50vh;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.box3 .img-fluid {
+  margin-top: 7%;
+}
+
+.box3 p {
+  color: white;
+  margin-top: 4%;
+  font-family: "Tw Cen MT";
+}
+
+.footer {
+  list-style: none;
+  font-size: 13px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-indent: 50px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  margin-top: 3%;
+}
+
+.footer-img {
+  margin-top: 3%;
+}
+
+.CAPTION {
+  position: absolute;
+}
+
+.CAPTION h3 {
+  margin-top: 0;
+  margin-bottom: 16rem;
+  font-weight: 360;
+  line-height: 1.2;
+  text-transform: uppercase;
+  margin-left: -55%;
+  font-size: 37px;
+  letter-spacing: 4px;
+}
+
+.c-btn {
+  border-radius: 0;
+  margin-top: -41%;
+  margin-left: -60%;
+  padding: 13px 25px;
+}
+
+@media (min-width: 280px) and (max-width: 400px) {
+  .c-btn {
+    border-radius: 0;
+    margin-top: 10%;
+    margin-left: -60%;
+    padding: 0px 7px;
+    font-size: 11px;
+  }
+  .navbar-brand img {
+    height: 19px;
+    margin-left: -11%;
+  }
+  .footer {
+    font-size: 6px;
+    text-indent: 12px;
+  }
+  .box3 {
+    height: 39vh;
+  }
+  .box3 p {
+    font-size: 10px;
+  }
+  .box3 .img-fluid {
+    margin-top: 7%;
+    height: 48px;
+  }
+  .footer-img {
+    height: 3vh;
+  }
+  .box2 h3 {
+    font-size: 16px;
+  }
+  .box2 p {
+    font-size: 8px;
+  }
+  .CAPTION h3 {
+    margin-bottom: -1rem;
+    margin-left: -55%;
+    font-size: 10px;
+    letter-spacing: 0.2px;
+  }
+  .box {
+    height: 55vh;
+  }
+  .box p {
+    font-size: 12px;
+  }
+  .box .logo img {
+    width: 86%;
+  }
+  .box .card .stars {
+    right: 44px;
+  }
+}
+
+.fifth h3 {
+  font-size: 24px;
+}
+
+.fifth p {
+  font-size: 15px;
+}
+
+.fifth .sec-img {
+  margin-top: -11%;
+}
+
+.fifth .card-body h5 {
+  font-weight: 300;
+  font-size: 11px;
+}
+
+.fifth .CAPTION h3 {
+  margin-bottom: 2rem;
+  margin-left: -55%;
+  font-size: 13px;
+  letter-spacing: 0;
+}
+
+@media (min-width: 400px) and (max-width: 550px) {
+  .c-btn {
+    border-radius: 0;
+    margin-top: -8%;
+    margin-left: -60%;
+    padding: 2px 16px;
+  }
+  .navbar-brand img {
+    height: 3vh;
+    margin-left: -11%;
+  }
+  .card-body h5 {
+    font-weight: 300;
+    font-size: 17px;
+  }
+  .box {
+    height: 60vh;
+  }
+  .box h3 {
+    font-size: 17px;
+  }
+  .box p {
+    font-size: 12px;
+  }
+  .box .logo img {
+    width: 60%;
+  }
+  .box2 h3 {
+    font-size: 16px;
+  }
+  .box2 p {
+    font-size: 10px;
+  }
+  .CAPTION h3 {
+    margin-bottom: 2rem;
+    margin-left: -55%;
+    font-size: 15px;
+    letter-spacing: 0.2px;
+  }
+  .footer {
+    font-size: 10px;
+    text-indent: 11px;
+  }
+  .card-body h5 {
+    font-weight: 300;
+    font-size: 25px;
+  }
+}
+
+@media (min-width: 550px) and (max-width: 767px) {
+  .c-btn {
+    border-radius: 0;
+    margin-top: -41%;
+    margin-left: -60%;
+    padding: 13px 25px;
+  }
+  .footer {
+    font-size: 11px;
+  }
+  .card-body h5 {
+    font-weight: 300;
+    font-size: 19px;
+  }
+  .CAPTION h3 {
+    margin-bottom: 2rem;
+    margin-left: -55%;
+    font-size: 25px;
+    letter-spacing: 0;
+  }
+}
+
+@media (min-width: 767px) and (max-width: 900px) {
+  .c-btn {
+    border-radius: 0;
+    margin-top: -23%;
+    margin-left: -60%;
+    padding: 13px 25px;
+  }
+  .image {
+    width: 95%;
+    margin-left: 5%;
+  }
+  .footer {
+    font-size: 11px;
+    text-indent: 15px;
+  }
+  .card-body h5 {
+    font-weight: 300;
+    font-size: 21px;
+  }
+  .CAPTION h3 {
+    margin-bottom: 6rem;
+    margin-left: -55%;
+    font-size: 17px;
+  }
+}
+
+@media (min-width: 900px) and (max-width: 1000px) {
+  .c-btn {
+    border-radius: 0;
+    margin-top: -41%;
+    margin-left: -60%;
+    padding: 13px 25px;
+  }
+  CAPTION h3 {
+    margin-bottom: 14rem;
+    margin-left: -55%;
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 1000px) and (max-width: 1024px) {
+  .c-btn {
+    border-radius: 0;
+    margin-top: -41%;
+    margin-left: -60%;
+    padding: 13px 25px;
+  }
+  .nav-text {
+    margin-left: 2%;
+  }
+  .card-body h5 {
+    font-weight: 300;
+    font-size: 11px;
+  }
+  .CAPTION h3 {
+    margin-bottom: 9rem;
+    margin-left: -55%;
+    font-size: 30px;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1200px) {
+  .c-btn {
+    border-radius: 0;
+    margin-top: -31%;
+    margin-left: -60%;
+    padding: 13px 25px;
+  }
+  .card-body h5 {
+    font-weight: 300;
+    font-size: 11px;
+  }
+  .nav-text {
+    margin-left: 2%;
+    font-size: 14px;
+  }
+  .box2 {
+    height: 28vh;
+  }
+  CAPTION h3 {
+    margin-bottom: 14rem;
+    margin-left: -55%;
+    font-size: 20px;
+  }
+}
+/*# sourceMappingURL=main.css.map */

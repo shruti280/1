@@ -1,0 +1,472 @@
+// ...........VARIABLES...........................
+$miniSE: 280px;
+ $SE: 400px;
+ $iphone: 550px;
+ $mobile: 767px;
+ $iPad: 900px;
+ $iPadPro2: 1000px;
+ $iPadPro: 1024px;
+ $iPadProPlus: 1200px;
+ $iPadProPlus2: 1400px;
+@mixin flex-property {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+@mixin BOX {
+    background-color: black;
+    width: 100%;
+    height: 40vh;
+}
+@mixin TEXT{
+    color: white;
+    font-weight: 200;
+    letter-spacing: 3px;
+}
+@mixin BACKGROUND{
+    background-color: black;
+    width: 100%;
+}
+@mixin CARD{
+  .card-body{
+h4{
+    font-size: 14px;
+    text-align: left;
+    margin-top: 4%;
+}
+    .stars{
+    position: relative;
+    text-align: left;
+    font-size: 11px;
+    .checked{
+    color: rgb(235, 167, 33);
+    }
+}
+.card-text{
+    font-size: 15px;
+    letter-spacing:0.5px;
+    text-align: left;
+    margin-top: 12%;
+    font-family: "Tw Cen MT";
+}
+  }
+}
+@mixin SECOND{
+    font-weight: 250;
+        letter-spacing: 4px;
+}
+@mixin FOURTH{
+    font-weight: 400;
+    letter-spacing: 4px; 
+}
+// ...............SCSS..................
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar-brand{
+    margin-left: 10%;
+}
+.nav-text{
+    margin-left: 20%;
+    font-size: 14px;
+.fas{
+    padding: 4px;
+}
+}
+.second{   text-align: center;
+    h3{
+       @include SECOND
+    }
+    p{   
+        letter-spacing: 2px;
+    }
+    .sec-img{
+        background-image: url(../images/4.png);
+        height: 100vh;
+        width: 100%;
+        margin-top: -4%;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+}
+.third{text-align: center;
+    h3{
+      margin-top: -10%;
+      @include SECOND;
+    }
+}
+.card-body{
+    h5{
+        font-weight: 300;
+        font-size: 22px
+    }
+}
+.box{
+    @include BOX;
+    @include flex-property;
+    margin-top: 15%;
+   h3{
+      @include TEXT;
+   }
+   p{
+    @include TEXT;
+   }
+   .buttons{
+       width: 50%;
+       margin-left: 25%;
+       .btn{
+           background-color: rgb(205,158,61);
+           border-radius: 0;
+           width: 100%;
+           font-size: 10px;
+    height: 5vh;
+    font-weight: 400;
+       }
+   }
+}
+.fourth{text-align: center;
+    h3{
+        @include FOURTH;
+    }
+}
+.card{ 
+    @include CARD;
+    background-color: #f7f7f7;
+    border: 0px solid rgba(0,0,0,.125);
+    height: auto;
+    .card-text2{
+        text-align: left;
+        margin-left: 5%;
+            font-size: 14px;
+        }
+}
+.card1{ @include CARD;
+   
+}
+.box2{
+  @include BOX;
+    margin-top: 5%;
+    @include flex-property;
+    h3{
+        color: white;
+        font-weight: 300;
+        letter-spacing: 3px;
+    }
+    p{
+        color: white;
+        letter-spacing: 2px;
+        font-weight: 200;
+        font-size: 14px;
+       line-height: 1.2em;
+    }
+}
+.fifth{text-align: center;
+    h3{
+    margin-top: 7%;
+      @include FOURTH;
+    }
+    p{
+        letter-spacing: 2px;
+    }
+    .img-thumbnail{
+        width: 24%;
+        padding: 0px;
+        border-radius: 0px;
+        border: 0px solid #dee2e6;
+    }
+    .buttons{
+        margin-top: 2%;
+        width: 50%;
+        margin-left: 25%;
+        .btn{
+           @include BACKGROUND;
+            border-radius: 0;
+            color: white;
+            font-size: 13px;
+     height: 5vh;
+     font-weight: 400;
+     &:hover{
+         background-color: white;
+         color: black;
+         border:1px solid black;
+     }
+        }
+    }
+}
+.box3{
+    @include BACKGROUND;
+    height: 50vh;
+    @include flex-property;
+    .img-fluid{
+        margin-top: 7%;
+    }
+    p{
+        color: white;
+        margin-top: 4%;
+        font-family: "Tw Cen MT";
+    }
+}
+.footer{
+    list-style: none;
+    font-size: 13px;
+    display: flex;
+    text-indent: 50px;
+    @include flex-property;
+    margin-top: 3%; 
+}
+.footer-img{
+        margin-top: 3%;}
+        .CAPTION{ 
+            position: absolute;
+            h3{
+                    margin-top: 0;
+                    margin-bottom: 16rem;
+                    font-weight: 360;
+                    line-height: 1.2;
+                    text-transform: uppercase;
+                    margin-left: -55%;
+                    font-size: 37px;
+                    letter-spacing: 4px;
+                }
+            }
+          .c-btn{
+                    border-radius: 0;
+                    margin-top: -41%;
+                    margin-left: -60%;
+                    padding: 13px 25px;
+                }
+    @media(min-width:$miniSE) and (max-width:$SE){
+        .c-btn{
+        border-radius: 0;
+    margin-top: 10%;
+    margin-left: -60%;
+    padding: 0px 7px;
+    font-size: 11px;
+        }
+        .navbar-brand{
+            img{
+                
+                height: 19px;
+     margin-left: -11%;
+            }
+         } 
+         .footer {
+            font-size: 6px;
+            text-indent: 12px;
+    }
+    .box3 {height: 39vh;
+p{
+    font-size: 10px;
+}
+    .img-fluid {
+        margin-top: 7%;
+        height: 48px;
+    }
+}
+.footer-img{
+    height: 3vh;
+}
+    .box2{
+        h3{
+            font-size: 16px;
+        }
+        p{
+            font-size: 8px;}}
+    .CAPTION h3 {
+        margin-bottom: -1rem;
+        margin-left: -55%;
+        font-size: 10px;
+        letter-spacing: 0.2px;
+    }
+    .box{
+        height: 55vh;
+p{
+    font-size: 12px;
+}
+        .logo{
+            img{
+                width: 86%;
+}}
+.card{ 
+    .stars{
+        right: 44px;
+    }
+}
+    }
+    }
+    .fifth{
+        h3{
+            font-size: 24px;
+        }
+        p{
+            font-size: 15px;
+        }
+        .sec-img{
+            margin-top: -11%;
+        }
+        .card-body h5 {
+            font-weight: 300;
+            font-size: 11px;
+        }
+.CAPTION{
+    h3{
+          margin-bottom: 2rem;
+    margin-left: -55%;
+    font-size: 13px;
+    letter-spacing: 0;
+    }}}
+    @media(min-width:$SE) and (max-width:$iphone){
+        .c-btn{
+            border-radius: 0;
+            margin-top: -8%;
+            margin-left: -60%;
+            padding: 2px 16px;
+        }
+        .navbar-brand{
+           img{
+               height: 3vh;
+    margin-left: -11%;
+           }
+        } 
+        .card-body h5 {
+            font-weight: 300;
+            font-size: 17px;
+        }
+    .box{
+    height: 60vh;
+       h3{
+        font-size: 17px;
+       }
+       p{
+        font-size: 12px;
+       }
+       .logo{
+           img{
+               width: 60%; }}}   
+    .box2{
+        h3{
+            font-size: 16px;
+        }
+        p{
+            font-size: 10px;} } 
+    .CAPTION {
+        h3 {
+            margin-bottom: 2rem;
+            margin-left: -55%;
+            font-size: 15px;
+            letter-spacing: 0.2px;}}
+    .footer{
+        font-size: 10px;
+    text-indent: 11px;
+    }
+    .card-body h5 {
+        font-weight: 300;
+        font-size: 25px; }}
+    @media(min-width:$iphone) and (max-width:$mobile){
+        .c-btn{
+            border-radius: 0;
+            margin-top: -41%;
+            margin-left: -60%;
+            padding: 13px 25px;
+        }
+        .footer{
+            font-size: 11px;
+        }
+        .card-body h5 {
+            font-weight: 300;
+            font-size: 19px;
+        }
+        .CAPTION
+        {
+         h3 {
+            margin-bottom: 2rem;
+    margin-left: -55%;
+    font-size: 25px;
+    letter-spacing: 0;
+        }} }
+    @media(min-width:$mobile) and (max-width:$iPad){
+        .c-btn{
+            border-radius: 0;
+            margin-top: -23%;
+            margin-left: -60%;
+            padding: 13px 25px;
+        }
+        .image{
+            width: 95%;
+            margin-left: 5%;
+        }
+        .footer{
+            font-size: 11px;
+            text-indent: 15px;
+        }
+        .card-body h5 {
+            font-weight: 300;
+            font-size: 21px;
+        }
+        .CAPTION 
+       {
+            h3 {
+            margin-bottom: 6rem;
+            margin-left: -55%;
+            font-size: 17px;
+        } } }
+    @media(min-width:$iPad) and (max-width:$iPadPro2){  
+        .c-btn{
+            border-radius: 0;
+            margin-top: -41%;
+            margin-left: -60%;
+            padding: 13px 25px;
+        }
+        CAPTION 
+        {
+            h3 {
+            margin-bottom: 14rem;
+            margin-left: -55%;
+            font-size: 20px;
+        }}}
+    @media(min-width:$iPadPro2) and (max-width:$iPadPro){
+        .c-btn{
+            border-radius: 0;
+            margin-top: -41%;
+            margin-left: -60%;
+            padding: 13px 25px;
+        }
+        .nav-text{
+            margin-left: 2%;
+        }
+        .card-body h5 {
+            font-weight: 300;
+            font-size: 11px;
+        }
+        .CAPTION 
+        { h3 {
+                margin-bottom: 9rem;
+                margin-left: -55%;
+                font-size: 30px;
+        }}}
+    @media(min-width:$iPadPro) and (max-width:$iPadProPlus){
+        .c-btn{
+            border-radius: 0;
+            margin-top: -31%;
+            margin-left: -60%;
+            padding: 13px 25px;
+        }
+        .card-body h5 {
+            font-weight: 300;
+            font-size: 11px;
+        }
+        .nav-text{
+            margin-left: 2%;
+            font-size: 14px;
+        }
+        .box2{
+            height: 28vh;
+        }
+        CAPTION 
+        {    h3 {
+            margin-bottom: 14rem;
+            margin-left: -55%;
+            font-size: 20px;
+        } }}
